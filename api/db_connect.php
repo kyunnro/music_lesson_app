@@ -2,7 +2,7 @@
 // includes/db_connect.php
 
 // Database connection parameters for SQLite
-$db_path = __DIR__ . '/../music_lesson.db'; // Path to the SQLite database file
+$db_path = __DIR__ . '/music_lesson.db'; // Path to the SQLite database file
 
 $dsn = "sqlite:" . $db_path;
 $options = [
